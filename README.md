@@ -1,3 +1,5 @@
+#Image Processing Pipeline
+
 Use the environment specified in pipfile and pipfile.lock to run this project.
 Modules of numpy, skimage, matplotlib need to be installed using pip3 install commands. 
 
@@ -6,7 +8,7 @@ To start the project, in terminal, run
 
 In terminal it will ask Automatic or Manual? (a/m)
 
-# 1.1 
+### 1.1 
 If you want to get images from 1.1 automatic pipeline, type a and hit return. 
 
 There will be a plot showing up having the comparison of gray world, white world and preset white balancing images in each step of the ISP pipeline.
@@ -14,7 +16,7 @@ There will be a plot showing up having the comparison of gray world, white world
 After you close the plot window, the project will start to download the 6 jpg and png files using gray-world white-balanced images (baby_gray.png, baby_gray.jpeg), white-world white-balanced images (baby_white.png, baby_white.jpeg) and preset white-balanced images (baby_preset.png, baby_preset.jpeg)
 
 
-# 1.2
+### 1.2
 If you want to get images from manually choosing the white spot of the image, type m and hit run.
 
 The plot will show up with instruction 'Click on a point that should be white'.
@@ -27,7 +29,7 @@ After you close the plot window, the project will download the png image 'baby_w
 
 If you want to try different batches by selecting different spot as white, you can change the file name and repeat the above steps. 
 
-# 1.3 
+### 1.3 
 Commands are here for you to type in the terminal: 
 
 To get the ppm file: 
