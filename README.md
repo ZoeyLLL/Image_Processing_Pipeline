@@ -1,4 +1,4 @@
-#Image Processing Pipeline
+
 
 Use the environment specified in pipfile and pipfile.lock to run this project.
 Modules of numpy, skimage, matplotlib need to be installed using pip3 install commands. 
